@@ -92,7 +92,7 @@ class(corals$growth)
 ## https://paleobiodb.org/classic/displayDownloadGenerator
 
 ## Now let's import it:
-pbdb_data_raw <- read_csv("./data/pbdb_data.csv", skip = 18) 
+pbdb_data_raw <- read_csv("C:/Users/Meyrick Tablizo/Documents/Paleosynthesis/3 Standardization/Materials/APW_2024/2024_08_07_Pseudosuchia.csv", skip = 21) 
 
 ## Take a look inside:
 View(pbdb_data_raw)
@@ -125,7 +125,7 @@ glimpse(occ_data_raw) # view columns
 View(occ_data_raw) # open as new tab
 
 ## It's good practice to save copies of your data as you go:
-write_csv(occ_data_raw, "./data/PBDB_pseudos_2014_08_07.csv")
+write_csv(occ_data_raw, "C:/Users/Meyrick Tablizo/Documents/Paleosynthesis/3 Standardization/Materials/APW_2024/2024_08_07_Pseudosuchia.csv")
 
 
 
